@@ -1,0 +1,21 @@
+C:\Users\johan\Google Drive\NHL\Jaar 1\Periode 1\Inleiding Programmeren\Opdrachten\Week2\Week2\Week2\obj\Debug\Week2.csprojAssemblyReference.cache
+C:\Users\johan\Google Drive\NHL\Jaar 1\Periode 1\Inleiding Programmeren\Opdrachten\Week2\Week2\Week2\obj\Debug\Week2.csproj.CoreCompileInputs.cache
+C:\Users\johan\Google Drive\NHL\Jaar 1\Periode 1\Inleiding Programmeren\Opdrachten\Week2\Week2\Week2\bin\Debug\Week2.exe.config
+C:\Users\johan\Google Drive\NHL\Jaar 1\Periode 1\Inleiding Programmeren\Opdrachten\Week2\Week2\Week2\bin\Debug\Week2.exe
+C:\Users\johan\Google Drive\NHL\Jaar 1\Periode 1\Inleiding Programmeren\Opdrachten\Week2\Week2\Week2\bin\Debug\Week2.pdb
+C:\Users\johan\Google Drive\NHL\Jaar 1\Periode 1\Inleiding Programmeren\Opdrachten\Week2\Week2\Week2\obj\Debug\Week2.exe
+C:\Users\johan\Google Drive\NHL\Jaar 1\Periode 1\Inleiding Programmeren\Opdrachten\Week2\Week2\Week2\obj\Debug\Week2.pdb
+C:\Users\johan\OneDrive\Bureaublad\Week2\Week2\obj\Debug\Week2.csprojAssemblyReference.cache
+C:\Users\johan\OneDrive\Bureaublad\Week2\Week2\obj\Debug\Week2.csproj.CoreCompileInputs.cache
+C:\Users\johan\OneDrive\Bureaublad\Week2\Week2\obj\Debug\Week2.exe
+C:\Users\johan\OneDrive\Bureaublad\Week2\Week2\obj\Debug\Week2.pdb
+C:\Users\johan\OneDrive\Bureaublad\Week2\Week2\bin\Debug\Week2.exe.config
+C:\Users\johan\OneDrive\Bureaublad\Week2\Week2\bin\Debug\Week2.exe
+C:\Users\johan\OneDrive\Bureaublad\Week2\Week2\bin\Debug\Week2.pdb
+C:\jsmeer\NHL\Jaar 1\Periode 1\Inleiding Programmeren\Opdrachten\Week2\Week2\bin\Debug\Week2.exe.config
+C:\jsmeer\NHL\Jaar 1\Periode 1\Inleiding Programmeren\Opdrachten\Week2\Week2\bin\Debug\Week2.exe
+C:\jsmeer\NHL\Jaar 1\Periode 1\Inleiding Programmeren\Opdrachten\Week2\Week2\bin\Debug\Week2.pdb
+C:\jsmeer\NHL\Jaar 1\Periode 1\Inleiding Programmeren\Opdrachten\Week2\Week2\obj\Debug\Week2.csprojAssemblyReference.cache
+C:\jsmeer\NHL\Jaar 1\Periode 1\Inleiding Programmeren\Opdrachten\Week2\Week2\obj\Debug\Week2.csproj.CoreCompileInputs.cache
+C:\jsmeer\NHL\Jaar 1\Periode 1\Inleiding Programmeren\Opdrachten\Week2\Week2\obj\Debug\Week2.exe
+C:\jsmeer\NHL\Jaar 1\Periode 1\Inleiding Programmeren\Opdrachten\Week2\Week2\obj\Debug\Week2.pdb
