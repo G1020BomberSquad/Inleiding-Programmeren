@@ -5,3 +5,10 @@ C:\Users\johan\OneDrive\Bureaublad\week2.1\week2.1\week2.1\bin\Debug\week2.1.exe
 C:\Users\johan\OneDrive\Bureaublad\week2.1\week2.1\week2.1\bin\Debug\week2.1.pdb
 C:\Users\johan\OneDrive\Bureaublad\week2.1\week2.1\week2.1\obj\Debug\week2.1.exe
 C:\Users\johan\OneDrive\Bureaublad\week2.1\week2.1\week2.1\obj\Debug\week2.1.pdb
+C:\Users\johan\OneDrive\Documenten\GitHub\Inleiding-Programmeren\Inleiding Programmeren\Opdrachten\Alleen dobbelsteen spel\week2.1\week2.1\bin\Debug\week2.1.exe.config
+C:\Users\johan\OneDrive\Documenten\GitHub\Inleiding-Programmeren\Inleiding Programmeren\Opdrachten\Alleen dobbelsteen spel\week2.1\week2.1\bin\Debug\week2.1.exe
+C:\Users\johan\OneDrive\Documenten\GitHub\Inleiding-Programmeren\Inleiding Programmeren\Opdrachten\Alleen dobbelsteen spel\week2.1\week2.1\bin\Debug\week2.1.pdb
+C:\Users\johan\OneDrive\Documenten\GitHub\Inleiding-Programmeren\Inleiding Programmeren\Opdrachten\Alleen dobbelsteen spel\week2.1\week2.1\obj\Debug\week2.1.csprojAssemblyReference.cache
+C:\Users\johan\OneDrive\Documenten\GitHub\Inleiding-Programmeren\Inleiding Programmeren\Opdrachten\Alleen dobbelsteen spel\week2.1\week2.1\obj\Debug\week2.1.csproj.CoreCompileInputs.cache
+C:\Users\johan\OneDrive\Documenten\GitHub\Inleiding-Programmeren\Inleiding Programmeren\Opdrachten\Alleen dobbelsteen spel\week2.1\week2.1\obj\Debug\week2.1.exe
+C:\Users\johan\OneDrive\Documenten\GitHub\Inleiding-Programmeren\Inleiding Programmeren\Opdrachten\Alleen dobbelsteen spel\week2.1\week2.1\obj\Debug\week2.1.pdb

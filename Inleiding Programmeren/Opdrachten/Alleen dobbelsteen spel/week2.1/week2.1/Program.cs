@@ -79,7 +79,7 @@ namespace Week2
                 }
                 else
                 {
-                    Console.WriteLine("U heeft in totaal " + (uitkeren - inzet) + " winst gemaakt!");
+                    Console.WriteLine("U heeft in totaal " + (uitkeren - inzet) + " euro winst gemaakt!");
                 }
                 //  Console.ReadKey();
             }
