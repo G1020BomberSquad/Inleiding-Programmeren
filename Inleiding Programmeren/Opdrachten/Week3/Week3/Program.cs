@@ -100,11 +100,11 @@ namespace Week3
                 string[] mensen = new string[aantalNamen];
                 Console.WriteLine("Voert u alstublieft een naam in en druk op enter. Doe dit " + aantalNamen + " keer.");
 
-                List<bool> countingBools = new List<bool>();
-                for (int i = 0; i < countingBools.Count; i++)
-                {
-                    countingBools.Add(Convert.ToBoolean(Console.ReadLine()));
-                }
+                //List<bool> countingBools = new List<bool>();
+                //for (int i = 0; i < countingBools.Count; i++)
+                //{
+                //    countingBools.Add(Convert.ToBoolean(Console.ReadLine()));
+                //}
                 // uitleg staat eventueel ook in whatsapp. 
                 // nu nog op kunnen tellen ;)
 
@@ -127,23 +127,6 @@ namespace Week3
                 Console.WriteLine("FOUT");
             }
 
-            //string[,] tabel = new string[5, 7]
-            //{
-            //    {"Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"},
-            //    {"15     ", "12     ", "10      ", "8        ", "9      ", "8       ", "5     "},
-            //    {"6      ", "4      ", "-2      ", "-3       ", "-5     ", "-7      ", "-2    "},
-            //    {"0      ", "1      ", "-2      ", "-4       ", "-3     ", "-8      ", "-9    "},
-            //    {"-11    ", "-8     ", "-5      ", "2        ", "4      ", "5       ", "1     "},
-            //};
-
-            //for (int row = 0; row < 5; row++)
-            //{
-            //    for (int column = 0; column < 7; column++)
-            //    {
-            //        tabel[row, column] = (row).ToString() + (column).ToString();
-            //    }
-            //}
-
             int[,] data = new int[4, 7]
             {
                 { 15, 12, 10, 8, 9, 9, 5 },
@@ -160,14 +143,16 @@ namespace Week3
                 }
                 Console.WriteLine();
             }
-
-            int sum = 0;
-            for (int j = 0; j < 7; j++)
+            
+            double sum = 0;
+            for (int column = 0; column < 7; column++)
             {
-                for (int i = 0; i < 4; i++)
+                for (int row = 0; row < 4; row++)
                 {
-                    sum = sum + data[i, j];
+                    sum = sum + data[row, column];                     
                 }
+                Console.WriteLine(sum / 4);
+                sum = sum - sum;
             }
 
             Console.ReadKey();
