@@ -117,6 +117,16 @@ namespace week4
             Console.ReadLine();
             #endregion
 
+            #region code Opdracht C
+
+            Console.WriteLine("Geef invoer");
+            string input3 = Console.ReadLine();
+
+            p.AantalWoorden("Dit zijn 4 woorden");
+
+
+            #endregion
+
             Console.ReadKey();
 
             
@@ -178,6 +188,10 @@ namespace week4
             {
                 index = 0;
             }
+            else if (index > tekst.Length)
+            {
+                index = tekst.Length;
+            }
             int steLetter = index;
             if (steLetter == 0)
             {
@@ -187,6 +201,18 @@ namespace week4
             Console.WriteLine("Letter nummer " + steLetter + " is: " + Letter);
 
             return (Letter);
+        }
+
+        public void AantalWoorden(string tekst)
+        {
+            string invoer;
+            invoer = tekst;
+            int woordCount = 0;
+            int index = 0;
+
+            // nu nog kijken hoeveel woorden er zijn
+            // https://stackoverflow.com/questions/8784517/counting-number-of-words-in-c-sharp
+            Console.WriteLine("De string '" + invoer + "' bevat " + woordCount + " woorden.");
         }
     }
 }
