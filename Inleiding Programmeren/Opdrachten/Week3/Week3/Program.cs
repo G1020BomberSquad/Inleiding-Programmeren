@@ -80,52 +80,49 @@ namespace Week3
             double totaal = 0.000;
             double gemiddelde = 0.000;
 
-            for (int i = 0; i < getallen.Length; i++)
+            for (int j = 0; j < getallen.Length; j++)
             {
-                getallen[i] = Convert.ToInt32(Console.ReadLine());
+                getallen[j] = Convert.ToInt32(Console.ReadLine());
                 totaal = getallen.Sum();
             }
             gemiddelde = totaal / invoer;
             string decimalfix = string.Format("{0:N3}", gemiddelde);
             Console.WriteLine("Totaal: " + totaal);
             Console.WriteLine("Gemiddelde: " + decimalfix);
-            
+
 
 
             Console.WriteLine("Hoeveel namen wilt u invoeren? Het maximum is 10.");
             int aantalNamen = Convert.ToInt32(Console.ReadLine());
+            string[] mensen = new string[aantalNamen];
+            List<bool> boolTellen = new List<bool>();
 
-            if (aantalNamen < 11)
+            int i = 0;
+            string input = "";
+            Console.WriteLine("Voert u alstublieft een naam in en druk op enter. Doe dit " + aantalNamen + " keer.");
+                        
+            do
             {
-                string[] mensen = new string[aantalNamen];
-                Console.WriteLine("Voert u alstublieft een naam in en druk op enter. Doe dit " + aantalNamen + " keer.");
-
-                //List<bool> countingBools = new List<bool>();
-                //for (int i = 0; i < countingBools.Count; i++)
-                //{
-                //    countingBools.Add(Convert.ToBoolean(Console.ReadLine()));
-                //}
-                // uitleg staat eventueel ook in whatsapp. 
-                // nu nog op kunnen tellen ;)
-
-                for (int i = 0; i < aantalNamen; i++)
+                input = Console.ReadLine();
+                
+                if (input == "")
                 {
-                    mensen[i] = Console.ReadLine();
-                    if (Console.ReadLine() == "stop")
-                    {
-                        break;
-                    }
-                    if (Console.ReadLine() == "")
-                    {
-                        Console.WriteLine("ERROR: lege invoer niet mogelijk");                        
-                        break;                        
-                    }
+                    Console.WriteLine("Niks invoeren mag niet");
                 }
-            }
-            else
-            {
-                Console.WriteLine("FOUT");
-            }
+                else if (input != "stop")
+                {
+                    mensen[i++] = input;
+                }
+            } while (input != "stop" && i<aantalNamen);
+
+            Console.WriteLine(boolTellen.Count);
+
+
+
+
+
+
+
 
             int[,] data = new int[4, 7]
             {
@@ -143,18 +140,18 @@ namespace Week3
                 }
                 Console.WriteLine();
             }
-            
+            int week = 0;
             double sum = 0;
-            for (int column = 0; column < 7; column++)
+            for (int row = 0; row < 4; row++)
             {
-                for (int row = 0; row < 4; row++)
+                for (int column = 0; column < 7; column++)
                 {
                     sum = sum + data[row, column];                     
                 }
-                Console.WriteLine(sum / 4);
-                sum = sum - sum;
+                  week++;
+                  Console.WriteLine("Gemiddelde van week " + (week) + ": " + (sum / 7));
+                  sum = sum - sum;
             }
-
             Console.ReadKey();
         }
     }
