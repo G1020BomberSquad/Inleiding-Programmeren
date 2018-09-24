@@ -109,7 +109,6 @@ namespace week4
             Console.ReadLine();
             #endregion
 
-
             #region code opdracht B
             Console.WriteLine("Geef je invoer (eerst een string, dan druk je op enter, en dan voer je een getal in: ");
             string input2 = Console.ReadLine();
@@ -129,8 +128,6 @@ namespace week4
         /// <returns></returns>
         public string MiddelsteLetterEvenOne(string tekst)
         {
-            //hier komt de code voor opdrachten 4 en 6
-
             int aantalLettersE = tekst.Length;
             int gemiddeldeE = (aantalLettersE / 2) - 1;
             string middelsteE = Convert.ToString(tekst[gemiddeldeE]);
@@ -146,8 +143,6 @@ namespace week4
         /// <returns></returns>
         public string MiddelsteLetterEvenTwo(string tekst)
         {
-            //hier komt de code voor opdrachten 4 en 6
-
             int aantalLettersE = tekst.Length;
             int gemiddeldeE = (aantalLettersE / 2);
             string middelsteE = Convert.ToString(tekst[gemiddeldeE]);
@@ -160,12 +155,9 @@ namespace week4
         /// Calculates the letter in the middle if the string.Length is uneven
         /// </summary>
         /// <param name="tekst"></param>
-        /// <returns></returns>
+        /// <returns>de middelste letter</returns>
         public string MiddelsteLetterOneven(string tekst)
         {
-            //hier komt de code voor opdrachten 4 en 6
-
-
             int aantalLettersO = tekst.Length;
             int gemiddeldeO = (aantalLettersO / 2);
             string middelsteO = Convert.ToString(tekst[gemiddeldeO]);
@@ -174,6 +166,12 @@ namespace week4
             return (middelsteO);
         }
 
+        /// <summary>
+        /// Grab the letter from the string that the user specified
+        /// </summary>
+        /// <param name="tekst"></param>
+        /// <param name="index"></param>
+        /// <returns>the letter that the user specified</returns>
         public char LetterOpIndex(string tekst, int index)
         {
             if (index < 0)
