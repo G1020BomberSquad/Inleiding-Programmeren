@@ -81,7 +81,7 @@ namespace Week2
                 {
                     Console.WriteLine("U heeft in totaal " + (uitkeren - inzet) + " euro winst gemaakt!");
                 }
-                //  Console.ReadKey();
+                Console.ReadKey();
             }
         }
     }

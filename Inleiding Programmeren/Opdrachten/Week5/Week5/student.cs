@@ -29,21 +29,21 @@ namespace Week5
             this.maandBudget = budget;
         }
 
-        private List<Voedsel> voedsel = new List<Voedsel>();
+        private List<Voedsel> eten = new List<Voedsel>();
 
         public void AddVoedsel(Voedsel kosten, Voedsel bescrijving)
         {
-            voedsel.Add(bescrijving);
-            voedsel.Add(kosten);
+            eten.Add(bescrijving);
+            eten.Add(kosten);
         }
 
         private bool IkMaakWinst()
         {
             int totaal = 0;
             bool iq = true;
-            foreach (int duur in voedsel)
+            foreach (Voedsel duur in eten)
             {
-                totaal = totaal + duur;
+                totaal = totaal + duur.GetKosten();
             } 
 
             if (totaal > maandBudget)
